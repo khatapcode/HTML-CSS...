@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+i {
+    color: aqua;
+}
+i {
+    color: brown;
+}
+b {
+    color: blueviolet;
+}
+p {
+    color: blue !important;
+}
+p {
+    color: violet;
+}
+p#intro {
+    font-size: 200%;
+}
+p {
+    font-size: 100%;
+}
