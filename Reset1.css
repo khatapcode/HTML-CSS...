@@ -1,0 +1,28 @@
+body {
+    background-color: silver;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Verdana, sans-serif;}
+    h1 {
+    background-color: #ffffff;
+    background-color: hsla(0,100%,100%,0.5);
+    color: #64645A;
+    padding: inherit;}
+    p {
+    padding: 5px;
+    margin: 0px;}
+    p.one {
+    background-color: rgb(225, 12, 12);}
+    p.two {
+    background-color: rgb(235, 118, 16);}
+    p.three {
+    background-color: rgb(220, 235, 11);}
+    p.four {
+    background-color: rgb(25, 211, 8);}
+    p.five {
+    background-color: rgb(16, 183, 234);}
+    p.six {
+    background-color: rgb(57, 32, 194);}
+    p.seven {
+    background-color: rgb(167, 21, 160);}
+    
