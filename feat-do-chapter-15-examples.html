@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .container {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    background-color: #f2f2f2;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ddd;
+  }
+
+  .inner-paragraph {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #ffcc00;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #888;
+  }
+
+  .subscribe-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #337ab7;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    This is a container div.
+    <p class="inner-paragraph">Inner paragraph</p>
+  </div>
+  <button class="subscribe-button">Đăng ký</button>
+</body>
+</html>
