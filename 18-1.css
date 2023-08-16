@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.intro-section {
+    margin: 20px;
+    text-align: center;
+}
+.intro-section h2 {
+    font-weight: normal;
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+.intro-section h2 strong {
+    color: rgb(38, 182, 182);
+    font-weight: 600;
+}
+body {
+    color: #333;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+  }
+  .lead-text {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .btn-list {
+    text-align: center;
+  }
+  .btn-list li {
+    display: inline;
+    margin: 0 12px;
+  }
+  .btn-list li a {
+    background-color: #333;
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
+    min-width: 170px;
+    color: aliceblue;
+    border-radius: 4px;    /* làm tròn viền */
+    text-decoration: none; /* bỏ dấu gạnh đít */
+        
+    transition: 0.3s background-color;/* thay đổi màu khi rê chuột vào */
+
+  
+}
+.btn-list li a:hover {
+  background-color: #00aeef;
+}
