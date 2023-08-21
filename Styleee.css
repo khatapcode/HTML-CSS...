@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: 100px;
+    gap: 10px;
+    align-content: center; /* Căn chỉnh hàng ngang */
+  }
+  
+  .grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    align-self: center; /* Căn chỉnh chiều dọc của hình vuông trong cột */
+  }
+  
+  /* Căn chỉnh chiều dọc của mỗi cột */
+  .grid-container {
+    align-items: center;
+  }
