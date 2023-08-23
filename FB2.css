@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-around; 
+    align-items: flex-end; 
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    margin: 5px;
+  }
+  
+  .special {
+    order: 2; 
+    flex-basis: 150px; 
+    background-color: #eb3723;
+    transform-origin: center; 
+  }
+  
+  .special:hover {
+    transform: rotate(-18deg); 
+  }
+  
